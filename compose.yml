@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  papermc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: papermc
+    ports:
+      - "25565:25565"  # Minecraft default port
+    volumes:
+      - ./app:/app  # Persistent server data
+    environment:
+      - EULA=true  # Agree to the Minecraft EULA (must be true)
+    restart: unless-stopped

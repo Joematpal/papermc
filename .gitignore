@@ -1,0 +1,5 @@
+# Ignore everything in folder
+app/
+
+# But include this file
+!app/eula.txt
