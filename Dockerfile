@@ -1,4 +1,4 @@
-FROM openjdk:21
+FROM amazoncorretto:24
 # Set the working directory inside the container
 WORKDIR /
 

@@ -1,5 +1,16 @@
 # But include this file
 !app/eula.txt
 # Ignore everything in folder
-app/
-
+app/cache/
+app/config/
+app/libraries/
+app/logs/
+app/plugins/
+app/versions/
+app/world/
+app/world_nether
+app/world_the_end
+app/*.json
+app/*.yml
+app/*.yaml
+app/server.properties
